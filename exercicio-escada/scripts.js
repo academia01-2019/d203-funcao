@@ -28,7 +28,8 @@ let material = prompt('Qual é o material que você quer utilizar na escada?');
 let degrau = material;
 let i = 0;
 
-while (i < lances) {
+while (i < lances) {  
+
     console.log(degrau);
 
     // degrau = degrau + material;
