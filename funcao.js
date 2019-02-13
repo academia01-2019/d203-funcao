@@ -15,6 +15,10 @@ function somaElevadaAoQuadrado(a = 0, b = 0) { //Assinatura da função
 
 console.log(somaElevadaAoQuadrado(10, 10));
 
-function aleatorio(min, max) {
+// function aleatorio(min, max) {
+//   return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+
+const aleatorio = function (min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
